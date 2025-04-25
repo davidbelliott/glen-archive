@@ -16,32 +16,18 @@ table {
     border-collapse: collapse;
 }
 
-a {
-    color: white;
-}
-
 /* unvisited link */
 a:link {
-    background-color: blue;
+    color: blue;
 }
 
 /* visited link */
 a:visited {
-    background-color: purple;
+    color: purple;
 }
 
 /* mouse over link */
 a:hover {
-    background-color: red;
-}
-
-.play-button {
-    color: yellow;
-    background-color: transparent;
-}
-
-.play-button:hover {
-    background-color: transparent;
     color: red;
 }
 
@@ -55,20 +41,6 @@ tbody {
 
 th, td {
     padding: 0.25rem;
-}
-
-canvas {
-    width: 100%;
-    display: block;
-    border: 1px solid;
-}
-
-#stellated-loading {
-    width: 100%;
-    text-align: center;
-    padding-top: calc(50% - 0.5rem);
-    padding-bottom: calc(50% - 0.5rem);
-    border: 1px solid;
 }
 
 blockquote {
